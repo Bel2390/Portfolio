@@ -1,0 +1,101 @@
+.projetoContainer {
+    width: 100%;
+    background-color: #fff6ed;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding-bottom: 50px;
+  }
+  
+  .projetoContainer h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .projetoContainer p {
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .imagemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+.linhaImagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.projetoImagem {
+    width: 350px;
+    height: auto;
+}
+
+
+  
+
+  
+  #icon {
+    margin-right: 10px;
+  
+  }
+  
+  .voltar {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ .ultimaLinha{
+width:500px;
+height: 450px;
+
+ }
+ .topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.voltarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    background-color: #4A6FA5;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: gray;
+}

@@ -1,0 +1,56 @@
+.projetoContainer {
+  width: 100%;
+  background-color: #fff6ed;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding-bottom: 50px;
+}
+
+.projetoContainer h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.projetoContainer p {
+  text-align: justify;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.projetoImagem {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.voltarContainer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#icon {
+  margin-right: 10px;
+
+}
+
+.voltar {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
