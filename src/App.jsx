@@ -41,10 +41,10 @@ const isFigma2Page= location.pathname=== "/figma2";
 }
 
 function Home() {
-  const [selectedIcon, setSelectedIcon] = useState(null); // Movido para Home
+  const [selectedIcon, setSelectedIcon] = useState(null); 
   const location = useLocation();
 
-  const handleIconClick = (icon) => { // Movido para Home
+  const handleIconClick = (icon) => { 
     setSelectedIcon(icon);
     const sectionId = `${icon}-section`;
     const section = document.getElementById(sectionId);
@@ -72,14 +72,14 @@ function Home() {
               <FaInstagram className="icon instagram" />
             </a>
           </div>
-          <a href="/CURRICULO ATUALIZADÍSSIMO.pdf" download>
+          <a href="/CV Isabela Silva.pdf" download>
             <button id="cv-button">Baixar CV</button>
           </a>
         </div>
       )}
 
       <div className="app-container">
-        <div id="prin-container"> {/* Movido para dentro de app-container */}
+        <div id="prin-container"> 
           <section id="about-section">
             <h3 id="dk">Sobre mim</h3>
             <p id="about-text">
