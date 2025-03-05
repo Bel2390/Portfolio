@@ -108,9 +108,8 @@ function Home() {
           </section>
 
           <section id="contact-section">
-            <h3 id="contct">Contatos</h3>
+            <h3 id="contct">Contato</h3>
             <p id="contct1">Email: albuquerqueisabela951@gmail.com</p>
-            <p id="contct2">Telefone: (22) 99269-6567</p>
           </section>
         </div>
 
