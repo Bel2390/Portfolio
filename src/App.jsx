@@ -48,13 +48,14 @@ function Home() {
   const location = useLocation();
 
   useEffect(() => {
-    fetch("https://github.com/lukePeavey/quotable")
+    fetch("/api/random") // Use /api/random
       .then((response) => response.json())
       .then((data) => {
-        setQuote(`${data.content} – ${data.author}`); // Formatação correta
+        setQuote(`${data.content} – ${data.author}`);
       })
       .catch((error) => console.error("Erro ao buscar citação:", error));
   }, []);
+  
 
   const handleIconClick = (icon) => {
     setSelectedIcon(icon);
