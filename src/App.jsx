@@ -51,11 +51,11 @@ function Home() {
     fetch("https://api.quotable.io/random")
       .then((response) => response.json())
       .then((data) => {
-        setQuote(`"${data.content}" – ${data.author}`);
+        setQuote(`${data.content} – ${data.author}`); // Formatação correta
       })
       .catch((error) => console.error("Erro ao buscar citação:", error));
   }, []);
-
+  
   const handleIconClick = (icon) => {
     setSelectedIcon(icon);
     const sectionId = `${icon}-section`;

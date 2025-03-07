@@ -335,8 +335,8 @@ color:#81638b;
     background: none;
     background-color: #fff6ed;
   }
-
-  #quote-box {
+  
+  #quote {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -347,5 +347,5 @@ color:#81638b;
     font-size: 14px;
     max-width: 250px;
     text-align: center;
-    display: none;
+    display: block; /* Torna o elemento visível */
   }
