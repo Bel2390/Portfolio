@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://api.quotable.io/quotes/random',
+        target: 'https://moraislucas.github.io/MeMotive/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
