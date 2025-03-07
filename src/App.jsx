@@ -48,7 +48,7 @@ function Home() {
   const location = useLocation();
 
   useEffect(() => {
-    fetch("/api/random") // Use /api/random
+    fetch("https://moraislucas.github.io/MeMotive/") // Use /api/random
       .then((response) => response.json())
       .then((data) => {
         setQuote(`${data.content} – ${data.author}`);
