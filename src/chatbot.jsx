@@ -21,7 +21,7 @@ function Chatbot() {
             <h2>Tecnologias Utilizadas</h2>
             <p>HTML, CSS e JavaScript (React)</p>
             <h2>Link do projeto</h2>
-            <a href="https://bel2390.github.io/Calculator/" target="_blank" rel="noopener noreferrer">
+            <a href="https://vercel.com/isabela-s-projects-0d4915cd/calmbot-chatbot/B4XsCDL4TEh7VJhrbsdJxncvdJoT" target="_blank" rel="noopener noreferrer">
                 Clique aqui para ser redirecionado ao projeto.
             </a>
         </div>
