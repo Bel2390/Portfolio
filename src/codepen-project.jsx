@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./codepen.module.css";
 import { TfiArrowLeft } from "react-icons/tfi";
-import CodePen from "./assets/codepen.png";
+import CodePen from "./assets/codepen2.png";
 
 
 
