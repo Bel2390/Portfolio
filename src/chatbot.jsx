@@ -1,9 +1,9 @@
-import Calculator from "./assets/calculator.png";
+import Print from "./assets/print21.png"
 import { Link } from "react-router-dom";
-import styles from "./calculator.module.css";
+import styles from "./chatbot.module.css";
 import { TfiArrowLeft } from "react-icons/tfi";
 
-function Calculadora() {
+function Chatbot() {
     return (
         <div className={styles.projetoContainer}>
             <div className={styles.voltarContainer}>
@@ -12,11 +12,12 @@ function Calculadora() {
                     Voltar para o portfólio
                 </Link>
             </div>
-            <h1>Calculadora</h1>
+            <h1>Calmbot</h1>
             <p>
-                No curso de Front End do site FreeCodeCamp, havia uma etapa em que deveríamos criar uma calculadora. Essa etapa me ajudou a aprimorar os meus conhecimentos em HTML, CSS e JavaScript.
+        Esse projeto é de um chatbot que criei, focado em pessoas que gostam de meditação e autocuidado. O bot tem funções como: envio de mensagens motivacionais, sons relaxantes, <br />
+        entre outros. É um chatbot simples, mas funcional.
             </p>
-            <img src={Calculator} alt="Projeto 1" className={styles.projetoImagem} />
+            <img src={Print} alt="Projeto 3" className={styles.projetoImagem} />
             <h2>Tecnologias Utilizadas</h2>
             <p>HTML, CSS e JavaScript (React)</p>
             <h2>Link do projeto</h2>
@@ -26,5 +27,5 @@ function Calculadora() {
         </div>
     );
 }
-
-export default Calculadora;
+ 
+export default Chatbot;

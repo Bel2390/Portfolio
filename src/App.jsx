@@ -5,14 +5,14 @@ import { VscAccount } from "react-icons/vsc";
 import { ImPhone } from "react-icons/im";
 import { MdWork } from "react-icons/md";
 import Project1 from "./figma-project-1.jsx";
-import Project2 from "./figma-project-2.jsx";
 import CodePenProject from "./codepen-project.jsx";
 import Calculadora from "./calculator-project.jsx";
 import Foto from "./assets/Foto linkedin.jpeg";
 import Figma3 from "./assets/figma3.png";
-import Figma4 from "./assets/Frame 1.png";
 import CodePen from "./assets/codepen.png";
 import Calculator from "./assets/calculator.png";
+import Chatbot from "./chatbot.jsx";
+import Print from "./assets/print21.png"
 import "./App.css";
 
 function Home() {
@@ -33,7 +33,7 @@ function Home() {
       <div id="box">
         <img src={Foto} alt="Minha foto do LinkedIn" className="profile-photo" />
         <h1>Isabela Albuquerque</h1>
-        <button id="description">Desenvolvedora Front End / UX Designer</button>
+        <button id="description">Desenvolvedora Front End</button>
         <div className="social-icons">
           <a
             href="https://www.linkedin.com/in/isabela-albuquerque-38b16826b"
@@ -60,12 +60,12 @@ function Home() {
           <section id="about-section">
             <h3 id="dk">Sobre mim</h3>
             <p id="about-text">
-              Olá! Me chamo Isabela, prazer! Sou estudante de Sistemas de Informação, e sou apaixonada pela área de tecnologia -
-              principalmente pelas áreas de programação e design de experiência do usuário.
+              Olá! Me chamo Isabela, prazer! Sou estudante de Sistemas de Informação, e sou apaixonada pela área de tecnologia.
+          
               <br />
-              Atualmente, ainda não trabalho em nenhuma dessas áreas, porém sigo em busca da minha primeira oportunidade! No meu dia a dia, utilizo as ferramentas essenciais para dar vida a um projeto web, como HTML, CSS, JavaScript e React. 
+              Atualmente, sigo em busca da minha primeira oportunidade na área. No meu dia a dia, utilizo as ferramentas essenciais para dar vida a um projeto web, como HTML, CSS, JavaScript e React. 
               Mas, meu trabalho não se limita à programação. Acredito que um bom design é fundamental para o sucesso de qualquer projeto. 
-              Por isso, me aprofundo em UX/UI Design, com princípios que buscam sempre proporcionar a melhor experiência ao usuário.
+              Por isso, também estudo um pouco de UX/UI Design, com princípios que buscam sempre proporcionar a melhor experiência ao usuário.
               Caso tenha interesse, abaixo na seção “Trabalhos” estão alguns dos meus projetos.
             </p>
           </section>
@@ -76,11 +76,12 @@ function Home() {
               <Link to="/figma1">
                 <img src={Figma3} alt="Projeto1" id="figma1" className="project-img" />
               </Link>
-              <Link to="/figma2">
-                <img src={Figma4} alt="Projeto2" className="project-img" />
-              </Link>
+            
               <Link to="/codepen">
                 <img src={CodePen} alt="CodePen Project" id="codepen" className="project-img" />
+              </Link>
+              <Link to="/chatbot">
+              <img src={Print} alt="print" id="print" className="project-img" />
               </Link>
               <Link to="/calculator">
                 <img src={Calculator} alt="Calculator Project" className="project-img" />
@@ -129,13 +130,13 @@ function App() {
   const isCalculatorPage = location.pathname === "/calculator";
   const isCodepenPage = location.pathname === "/codepen";
   const isFigma1Page = location.pathname === "/figma1";
-  const isFigma2Page = location.pathname === "/figma2";
+  const isChatbotPage= location.pathname ==="/chatbot";
 
   return (
     <div
       id="principal-container"
       className={
-        isCalculatorPage || isCodepenPage || isFigma1Page || isFigma2Page
+        isCalculatorPage || isCodepenPage || isFigma1Page || isChatbotPage
           ? "calculator-background"
           : ""
       }
@@ -143,9 +144,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/figma1" element={<Project1 />} />
-        <Route path="/figma2" element={<Project2 />} />
         <Route path="/codepen" element={<CodePenProject />} />
         <Route path="/calculator" element={<Calculadora />} />
+       <Route path="/chatbot" element={<Chatbot />} />
       </Routes>
     </div>
   );

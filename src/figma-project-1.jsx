@@ -20,7 +20,8 @@ function figma1() {
             </div>
             <h1>A Arte de Vender: Website com Design Old-Fashioned </h1>
             <p>
-              Esse projeto, com o design totalmente original e criado por mim, teve como base uma ideia gerada pelo site &ldquo;Goodbrief&rdquo;. A ideia era criar um site focado em oferecer serviços de leitura, seja vendendo livros ou assinaturas. O site deveria ter um design vintage, com: uma landing page, uma página de termos de serviço, uma página falando sobre a empresa, e outra página apresentando os produtos.
+              Esse projeto, com o design totalmente original e criado por mim, teve como base uma ideia gerada pelo site &ldquo;Goodbrief&rdquo;. A ideia era criar o protótipo de um site focado em oferecer serviços de leitura, seja vendendo livros ou assinaturas. O site deveria ter um design vintage, com: uma landing page, uma página de termos de serviço, uma página falando sobre a empresa, e outra página apresentando os produtos.
+              <p>A base para a realização desse protótipo foram os princípios de UX Design.</p>
                 
              
                

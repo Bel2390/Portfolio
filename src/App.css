@@ -178,16 +178,17 @@ h1 {
 .icon-container.active p {
     color: #4A6FA5;
 }
-
 .project-img {
-    width: 250px;
-    padding: 15px;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-    filter: grayscale(50%); 
-    background-color: #dbd9d9;
- 
+  width: 250px;
+  height: 188px; /* Mantém todas com mesmo tamanho */
+  object-fit: cover; /* Pode trocar por 'contain' se quiser mostrar tudo */
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  filter: grayscale(50%);
+  background-color: #dbd9d9;
 }
+
 
 .project-img:hover {
     transform: scale(1.05);
@@ -195,18 +196,6 @@ h1 {
 }
 
 
-#figma1{
-
-
-height: 188px;
-
-}
-
-#codepen{
-
-
-    height:205px
-}
 
 .projects{
    
